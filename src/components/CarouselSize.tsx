@@ -23,7 +23,7 @@ export function CarouselSize() {
         {data && data.map(item => (
           <CarouselItem key={item.id} className="md:basis-1/2">
               <Card className="flex items-center justify-center gap-5 flex-column" >
-                <CardContent className='flex-column"'>
+              <CardContent className='flex-column"'>
                   <div className='h-64 w-full aspect-w-16 aspect-h-9'>
                   <img src={item.image} className='object-cover w-full h-full' alt={item.description} />  
                   </div>
