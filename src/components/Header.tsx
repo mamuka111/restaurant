@@ -10,7 +10,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="   flex  items-center space-x-4 gap-10">
-              <a className=' cursor-pointer text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl bg-clip-text text-transparent bg-gradient-to-tr from-primary'>Reastaurant</a>
+              <a className='  cursor-pointer text-64 font-bold tracking-tighter sm:text-xl lg:text-3xl xl:text-4xl bg-clip-text text-transparent bg-gradient-to-tr from-primary'>Reastaurant</a>
               <a  className=" cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">Menu</a>
               <a className="cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">About</a>
               <a className="cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">Contact Us</a>
