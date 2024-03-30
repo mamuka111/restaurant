@@ -3,7 +3,7 @@ import CardComponent from '../components/CardComponent';
 import CarouselSize from '../components/CarouselSize'
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Header></Header>
       {/* <CardComponent></CardComponent> */}
     <CarouselSize></CarouselSize>
