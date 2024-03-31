@@ -11,8 +11,8 @@ const Header = () => {
   <nav className="bg-800 py-4">
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex justify-between items-center space-x-4 gap-10">
-        <a className='cursor-pointer text-4xl lg:text-3xl xl:text-4xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-tr from-primary sm:text-3xl'>Restaurant</a>
-        <a className="hidden sm:inline cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">Menu</a>
+        <Link href={`/#`} className='cursor-pointer text-4xl lg:text-3xl xl:text-4xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-tr from-primary sm:text-3xl'>Restaurant</Link>
+        <Link href={`/Menu`} className="hidden sm:inline cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">Menu</Link>
         <a className="hidden sm:inline cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">About</a>
         <a className="hidden sm:inline cursor-pointer text-3xl font-bold tracking-tighter text-sm xl:text-2xl bg-clip-text text-transparent bg-gradient-to-tr from-primary">Contact Us</a>
       </div>

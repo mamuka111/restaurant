@@ -1,5 +1,7 @@
 
 import {data} from '../../data'
+import { Button } from "@/components/ui/button"
+
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -24,17 +26,17 @@ export function CarouselSize() {
           <CarouselItem key={item.id} className="md:basis-1/2">
               <Card className="flex items-center justify-center gap-5 flex-column" >
               <CardContent className='flex-column"'>
-                  <div className='h-64 w-full aspect-w-16 aspect-h-9'>
+                  <div className=' h-64 w-full aspect-w-16 aspect-h-9'>
                   <img src={item.image} className='object-cover w-full h-full' alt={item.description} />  
                   </div>
                   <h2 className="text-3xl font-semibold">{item.name}</h2>
-                  <Link href={`/${item.id}`}>Go to page</Link>
+                  <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link>
                 </CardContent>
               </Card>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className='2xl:block xl:block lg:block md:block sm:hidden'>
+      <div className=' 2xl:block xl:block lg:block md:block sm:hidden'>
       <CarouselPrevious />
       <CarouselNext />
       </div>
