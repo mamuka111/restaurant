@@ -3,6 +3,7 @@ import CardComponent from '../components/CardComponent';
 import CarouselSize from '../components/CarouselSize'
 import {Menu} from '../components/Menu'
 import { Dropdown } from "react-bootstrap";
+import MenuPage from "./MenuPage";
 export default function Home() {
   
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header></Header>
       {/* <Menu></Menu> */}
     <CarouselSize></CarouselSize>
+    {/* <MenuPage></MenuPage> */}
     {/* <CardComponent></CardComponent> */}
     </div>
   );
