@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 export function CarouselSize() {
   return (
-  <div className='py-5 mx-5 sm:px-8 xl:px-16'>
+  <div className='pt-10 mx-5 sm:px-8 xl:px-16'>
     <Carousel
       opts={{
         align: "start",
@@ -34,8 +34,10 @@ export function CarouselSize() {
           </CarouselItem>
         ))}
       </CarouselContent>
+      <div className='2xl:block xl:block lg:block md:block sm:hidden'>
       <CarouselPrevious />
       <CarouselNext />
+      </div>
     </Carousel>
     </div>
   ) 
