@@ -31,7 +31,7 @@ const Header = () => {
       <DopdownComponent></DopdownComponent>
       </div>
     </div>
-<DropdownCart> <Button variant="outline"><FaCartPlus></FaCartPlus></Button></DropdownCart>
+      <DropdownCart></DropdownCart>
     <ModeToggle></ModeToggle>
    
   </div>

@@ -9,7 +9,7 @@ import {
   import { RxHamburgerMenu } from "react-icons/rx";
 const DopdownComponent = () => {
   return (
-    <div className="">
+    <div >
         <DropdownMenu>
         
   <DropdownMenuTrigger><RxHamburgerMenu size={32} style={{ color: 'red' }} /></DropdownMenuTrigger>

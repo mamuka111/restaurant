@@ -10,12 +10,15 @@ import {
 
 const DropdownCart = () => {
   return (
-    <div className="">
+    <div >
         <DropdownMenu>
         
   <DropdownMenuTrigger><FaCartPlus size={32} style={{ color: 'red' }} /></DropdownMenuTrigger>
-  <DropdownMenuContent className='h-[200px]'>
-    
+  <DropdownMenuContent >
+    <div className="h-[200px] w-64">
+
+    </div>
+
   </DropdownMenuContent>
 </DropdownMenu>
     </div>
