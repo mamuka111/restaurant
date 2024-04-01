@@ -2,7 +2,8 @@ import React from 'react'
 import Link from 'next/link';
 import { ModeToggle } from './theme/mode-toggle';
 import CardComponent from './CardComponent';
-import DopdownComponent from '../components/DopdownComponent';
+import DopdownComponent from './smallComponents/DopdownComponent';
+import DropdownCart from './smallComponents/DropdownCart';
 import { Button } from "@/components/ui/button"
 import { FaCartPlus } from "react-icons/fa";
 import {
@@ -30,15 +31,9 @@ const Header = () => {
       <DopdownComponent></DopdownComponent>
       </div>
     </div>
-    <HoverCard>
-  <HoverCardTrigger><Button variant="outline"><FaCartPlus></FaCartPlus></Button></HoverCardTrigger>
-  <HoverCardContent>
-    <div className='w-5 h-[90px]'>
-
-    </div>
-  </HoverCardContent>
-</HoverCard>
+<DropdownCart> <Button variant="outline"><FaCartPlus></FaCartPlus></Button></DropdownCart>
     <ModeToggle></ModeToggle>
+   
   </div>
 </div>
   )
