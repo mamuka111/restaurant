@@ -39,7 +39,7 @@ export function CarouselSize() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className=' 2xl:block xl:block lg:block md:block sm:hidden'>
+      <div className='hidden 2xl:block xl:block lg:block md:block sm:hidden'>
       <CarouselPrevious />
       <CarouselNext />
       </div>

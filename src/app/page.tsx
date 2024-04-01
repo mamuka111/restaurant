@@ -12,9 +12,9 @@ export default function Home() {
       {/* <CartCounter></CartCounter> */}
       <Header></Header>
       {/* <Menu></Menu> */}
-    {/* <CarouselSize></CarouselSize> */}
+    <CarouselSize></CarouselSize>
     {/* <MenuPage></MenuPage> */}
-    <CardComponent></CardComponent>
+    {/* <CardComponent></CardComponent> */}
     </div>
   );
 }
