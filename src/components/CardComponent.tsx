@@ -2,12 +2,12 @@ import React from 'react'
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import {data} from '../../data'
 import { Button } from "@/components/ui/button"
-
+import CardCounter from './smallComponents/CartCounter'
 const CardComponent = () => {
   return (
     <div className='flex items-center justify-center flex-wrap gap-5'>
     {data.map(item => (
-    <Card key={item.id} className="py-4 w-[300px]">
+    <Card key={item.id} className="py-4 w-[270px]">
     <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
       <p className="text-tiny uppercase font-bold">{item.category}</p>
       <small className="text-default-500">price:{item.price}$</small>
@@ -20,7 +20,10 @@ const CardComponent = () => {
         src={item.image}
         width={270}
       />
-         <Button  className='w-32'><p>details</p></Button>
+      <div className='flex justify-start '>
+         <Button  className='w-24'><p>details</p></Button>
+         {/* <Button  className='w-24'><p>add to cart</p></Button> */}
+         </div>
     </CardBody>
   </Card>
     ))}

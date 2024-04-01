@@ -3,7 +3,13 @@ import Link from 'next/link';
 import { ModeToggle } from './theme/mode-toggle';
 import CardComponent from './CardComponent';
 import DopdownComponent from '../components/DopdownComponent';
-
+import { Button } from "@/components/ui/button"
+import { FaCartPlus } from "react-icons/fa";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
 
 const Header = () => {
   return (
@@ -18,10 +24,20 @@ const Header = () => {
       </div>
     </div>
   </nav>
-  <div className='flex flex-row gap-10 m4-50'>
+  <div className='flex flex-row gap-4 m4-50'>
     <div className='2xl:hidden xl:hidden lg:hidden md:hidden sm:hidden'> 
+    <div className='mr-4'>
       <DopdownComponent></DopdownComponent>
+      </div>
     </div>
+    <HoverCard>
+  <HoverCardTrigger><Button variant="outline"><FaCartPlus></FaCartPlus></Button></HoverCardTrigger>
+  <HoverCardContent>
+    <div className='w-5 h-[90px]'>
+
+    </div>
+  </HoverCardContent>
+</HoverCard>
     <ModeToggle></ModeToggle>
   </div>
 </div>
