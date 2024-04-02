@@ -1,6 +1,7 @@
-
+'use client'
 import {data} from '../../data'
 import { Button } from "@/components/ui/button"
+import Autoplay from "embla-carousel-autoplay"
 import Image from 'next/image'
 import { Card, CardContent } from "@/components/ui/card"
 import {
@@ -16,6 +17,11 @@ export function CarouselSize() {
   return (
   <div className='pt-10 mx-5 sm:px-8 xl:px-16'>
     <Carousel
+    plugins={[
+      Autoplay({
+        delay: 3000,
+      }),
+    ]}
       opts={{
         align: "start",
       }}
@@ -28,7 +34,7 @@ export function CarouselSize() {
               <CardContent className='flex-column"'>
                 <div className='flex flex-col gap-2'>
                   <div className=' h-64 w-full aspect-w-16 aspect-h-9'>
-                    <img src={item.image} className='object-cover w-full h-full' alt={item.description} />
+                    <img src={item.image} className='object-cover w-full h-full pt-4' alt={item.description} />
                     
                   </div>
                   <h2 className="text-3xl font-semibold">{item.name}</h2>
