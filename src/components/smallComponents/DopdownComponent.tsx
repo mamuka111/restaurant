@@ -7,6 +7,8 @@ import {
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
   import { RxHamburgerMenu } from "react-icons/rx";
+  import Link from 'next/link';
+
 const DopdownComponent = () => {
   return (
     <div >
@@ -16,7 +18,8 @@ const DopdownComponent = () => {
   <DropdownMenuContent>
     <DropdownMenuLabel>Navigation</DropdownMenuLabel>
     <DropdownMenuSeparator />
-    <DropdownMenuItem>Menu</DropdownMenuItem>
+    <Link href={`/`}><DropdownMenuItem>Home</DropdownMenuItem></Link>
+    <Link href={`/card`}><DropdownMenuItem>Menu</DropdownMenuItem></Link>
     <DropdownMenuItem>About</DropdownMenuItem>
     <DropdownMenuItem>Contact us</DropdownMenuItem>
   </DropdownMenuContent>

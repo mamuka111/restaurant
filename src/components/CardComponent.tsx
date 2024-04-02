@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react'
+import Link from 'next/link';
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import {data} from '../../data'
 import { Button } from "@/components/ui/button"
@@ -21,7 +24,7 @@ const CardComponent = () => {
         width={270}
       />
       <div className='flex justify-start '>
-         <Button  className='w-24'><p>details</p></Button>
+      <Link href={`/card/${item.id}`}> <Button  className='w-24'><p>details</p></Button></Link>
          {/* <Button  className='w-24'><p>add to cart</p></Button> */}
          </div>
     </CardBody>

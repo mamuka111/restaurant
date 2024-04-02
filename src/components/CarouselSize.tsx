@@ -19,7 +19,7 @@ export function CarouselSize() {
     <Carousel
     plugins={[
       Autoplay({
-        delay: 2300,
+        delay: 1800,
       }),
     ]}
       opts={{
@@ -38,7 +38,7 @@ export function CarouselSize() {
                     
                   </div>
                   <h2 className="text-3xl font-semibold">{item.name}</h2>
-                  <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link>
+                  {/* <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link> */}
                   </div>
                 </CardContent>
               </Card>
