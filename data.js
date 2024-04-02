@@ -195,7 +195,7 @@ export const data = [
         "price": 6.00,
         "status": "Add to cart",
         "description": "Tea is made by pouring hot water over cured tea leaves. This popular beverage can be enjoyed hot or cold, and can bring different health benefits. ",
-        "image": "https://assets3.thrillist.com/v1/image/2830175/828x610/flatten;crop;webp=auto;jpeg_quality=60.jpg"
+        "image": "https://www.foodandwine.com/thmb/hChW29M1xYUVTb56ImlKxiXo0Xg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/different-types-of-tea-FT-BLOG0621-7c7fd231e66d4fea8ca9a47cad52ba79.jpg"
     },
     {
         "id": 23,
