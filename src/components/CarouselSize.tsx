@@ -34,7 +34,7 @@ export function CarouselSize() {
               <CardContent className='flex-column"'>
                 <div className='flex flex-col gap-2'>
                   <div className=' h-64 w-full aspect-w-16 aspect-h-9'>
-                    <img src={item.image} className='object-cover w-full h-full pt-4' alt={item.description} />
+                   <Image height={300} width={300} src={item.image} className='object-cover w-full h-full pt-4' alt={item.description} />
                     
                   </div>
                   <h2 className="text-3xl font-semibold">{item.name}</h2>
