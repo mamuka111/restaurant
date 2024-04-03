@@ -1,13 +1,5 @@
 export const data = [
-    {
-        "id": 1,
-        "category": "Main Dish",
-        "name": "Beef Enchiladas",
-        "price": 30.00,
-        "status": "Add to cart",
-        "description": "These beef enchiladas are Mexican comfort food at its finest. Shredded beef simmers in a homemade red enchilada sauce for ultimate flavor, then is mixed with jalapenos, cheese, and cilantro. Rolled up in tortillas and topped with more sauce and cheese, these enchiladas are sheer perfection. It's a classic recipe that deserves a spot in everyone's dinner rotation.",
-        "image": "https://images-gmi-pmc.edge-generalmills.com/8ba62fee-ecf3-4360-8b7f-ae7cbf7c6d74.jpg"
-    },
+
     {
         "id": 2,
         "category": "Main Dish",

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 // import CartCounter from '../../components/smallComponents/CartCounter'
 const CardComponent = () => {
   return (
-    <div className='flex items-center justify-center flex-wrap gap-5'>
+    <div className='flex items-center justify-center flex-wrap gap-5 mt-32'>
     {data.map(item => (
     <Card key={item.id} className="py-4 w-[270px]">
     <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
