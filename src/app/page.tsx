@@ -5,7 +5,7 @@ import {Menu} from '../components/Menu'
 import { Dropdown } from "react-bootstrap";
 import MenuPage from "./MenuPage";
 import CartCounter from "@/components/smallComponents/CartCounter";
-import CardDetailsPage from "@/components/CardDetailsPage";
+// import CardDetailsPage from "@/components/CardDetailsPage";
 export default function Home() {
   
   return (

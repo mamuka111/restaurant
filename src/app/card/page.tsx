@@ -4,7 +4,7 @@ import {data} from '../../../data'
 import Link from 'next/link';
 
 import { Button } from "@/components/ui/button"
-import CartCounter from '../../components/smallComponents/CartCounter'
+// import CartCounter from '../../components/smallComponents/CartCounter'
 const CardComponent = () => {
   return (
     <div className='flex items-center justify-center flex-wrap gap-5'>
