@@ -1,6 +1,8 @@
 import React from 'react'
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import {data} from '../../../data'
+import Link from 'next/link';
+
 import { Button } from "@/components/ui/button"
 import CartCounter from '../../components/smallComponents/CartCounter'
 const CardComponent = () => {
@@ -21,7 +23,7 @@ const CardComponent = () => {
         width={270}
       />
       <div className='flex justify-start '>
-         <Button  className='w-24'><p>details</p></Button>
+      <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link>
          {/* <Button  className='w-24'><p>add to cart</p></Button> */}
          </div>
     </CardBody>

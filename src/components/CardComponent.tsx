@@ -24,7 +24,7 @@ const CardComponent = () => {
         width={270}
       />
       <div className='flex justify-start '>
-      <Link href={`/card/${item.id}`}> <Button  className='w-24'><p>details</p></Button></Link>
+      <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link>
          {/* <Button  className='w-24'><p>add to cart</p></Button> */}
          </div>
     </CardBody>

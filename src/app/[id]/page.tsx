@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import {data} from '../../../data'
-import CardComponent from '@/components/CardComponent'
 import { useParams } from 'next/navigation'
 const SinglePostPage = () => {
   const params = useParams();
