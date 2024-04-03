@@ -5,7 +5,6 @@ import {Menu} from '../components/Menu'
 import { Dropdown } from "react-bootstrap";
 import MenuPage from "./MenuPage";
 import CartCounter from "@/components/smallComponents/CartCounter";
-// import CardDetailsPage from "@/components/CardDetailsPage";
 export default function Home() {
   
   return (
@@ -16,6 +15,7 @@ export default function Home() {
       {/* <CardPage></CardPage> */}
       <div className="mt-16">
     <CarouselSize ></CarouselSize>
+    {/* <CardBttons></CardBttons> */}
       </div>
     {/* <MenuPage></MenuPage> */}
     {/* <CardComponent></CardComponent> */}

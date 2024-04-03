@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button"
 import CardCounter from './smallComponents/CartCounter'
 const CardComponent = () => {
   return (
-    <div className='flex items-center justify-center flex-wrap gap-5'>
+    <div className='flex items-start justify-center flex-wrap gap-5 '>
     {data.map(item => (
     <Card key={item.id} className="py-4 w-[270px]">
-    <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+    <CardHeader className="flex flex-col items-start ">
       <p className="text-tiny uppercase font-bold">{item.category}</p>
       <small className="text-default-500">price:{item.price}$</small>
       <h4 className="font-bold text-large">{item.name}</h4>
