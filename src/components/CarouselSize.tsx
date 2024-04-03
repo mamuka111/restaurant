@@ -19,7 +19,7 @@ export function CarouselSize() {
     <Carousel
     plugins={[
       Autoplay({
-        delay: 2500,
+        delay: 2800,
       }),
     ]}
       opts={{
