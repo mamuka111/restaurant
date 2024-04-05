@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import {data} from '../../../data'
@@ -17,10 +18,12 @@ import { Button } from "@/components/ui/button"
 // import CartCounter from '../../components/smallComponents/CartCounter'
 
 const CardComponent = () => {
+  
   return (
     <div className=' flex-col'>
       <div className='flex items-center justify-start 2xl:ml-32 xl:ml-0 lg:ml-32 md:ml-16 sm:ml-16 gap-5 h-full mt-16'>
       <Select>
+        
   <SelectTrigger className="w-[180px]">
     <SelectValue placeholder="Filter" />
   </SelectTrigger>
