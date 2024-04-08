@@ -18,17 +18,17 @@ import { Button } from "@/components/ui/button"
 // import CartCounter from '../../components/smallComponents/CartCounter'
 
 const CardComponent = () => {
-  
+  const [selectedOption, setSelectedOption] = useState(null)
   return (
     <div className=' flex-col'>
-      <div className='flex items-center justify-start 2xl:ml-32 xl:ml-0 lg:ml-32 md:ml-16 sm:ml-16 gap-5 h-full mt-16'>
+      <div className='flex items-center justify-start 2xl:ml-32 xl:ml-0 lg:ml-32 md:ml-16 sm:ml-16 gap-5 h-full mt-16'> 
+      
       <Select>
-        
   <SelectTrigger className="w-[180px]">
     <SelectValue placeholder="Filter" />
   </SelectTrigger>
   <SelectContent>
-  <SelectItem value="All">Everithing</SelectItem>
+  <SelectItem value="Everithing">Everithing</SelectItem>
     <SelectItem value="light">Main Dish</SelectItem>
     <SelectItem value="dark">Side Dish</SelectItem>
     <SelectItem value="system">Drinks</SelectItem>
