@@ -37,7 +37,7 @@ export function CarouselSize() {
                    <Image height={300} width={300} src={item.image} className='object-cover w-full h-full pt-4' alt={item.description} />
                     
                   </div>
-                  <h2 className="text-3xl font-semibold">{item.name}</h2>
+                  <h2 className="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-tr from-primary">{item.name}</h2>
                   {/* <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link> */}
                   </div>
                 </CardContent>
