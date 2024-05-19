@@ -28,16 +28,16 @@ const CardComponent = () => {
     <SelectValue placeholder="Filter" />
   </SelectTrigger>
   <SelectContent>
-  <SelectItem value="Everithing">Everithing</SelectItem>
-    <SelectItem value="light">Main Dish</SelectItem>
-    <SelectItem value="dark">Side Dish</SelectItem>
-    <SelectItem value="system">Drinks</SelectItem>
-    <SelectItem value="default">Desserts</SelectItem>
+  <SelectItem value="everything">Everithing</SelectItem>
+    <SelectItem value="Main Dish">Main Dish</SelectItem>
+    <SelectItem value="Side Dish">Side Dish</SelectItem>
+    <SelectItem value="Drinks">Drinks</SelectItem>
+    <SelectItem value="Dessert">Desserts</SelectItem>
   </SelectContent>
 </Select>
 </div>
 <div className='flex items-center justify-center flex-wrap gap-5 '>
-    {data.map(item => (
+    {data.map(item =>(
       
     <Card key={item.id} className="py-4 w-[300px] ">
     <CardHeader className="pb-0 pt-2 px-4  flex-col items-start">
@@ -56,7 +56,7 @@ const CardComponent = () => {
       />
       <div className='flex justify-start '>
       <Link href={`/${item.id}`}><Button  className='w-32'><p>details</p></Button></Link>
-         {/* <Button  className='w-24'><p>add to cart</p></Button> */}
+         <Button  className='w-24'><p>add to cart</p></Button>
          </div>
     </CardBody>
   </Card>
